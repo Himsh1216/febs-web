@@ -75,7 +75,7 @@ const Team = () => {
                 {
                   "name": "Adarsh Raj",
                   "role": "Economics head",
-                  "image": "/assets/images/Picture  (File responses)/InShot_20240128_231839504 - ADARSH RAJ.jpg",
+                  "image": "/assets/images/Picture  (File responses)/InShot_20240128_231839504 - ADARSH RAJ.jpeg",
                   "bio": "Economics head | Year: 2024-25 | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/adarsh-raj-1868a52a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               },
