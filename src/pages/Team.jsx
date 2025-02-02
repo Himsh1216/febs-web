@@ -12,14 +12,14 @@ const Team = () => {
                   {
                     name: "Aryush Tripathi",
                     role: "Secretary",
-                    image: "/assets/images/Aryush Bhaiya.png",
+                    image: "/assets/images/Aryush Bhaiya.jpeg",
                     bio: "Secretary of Finance Economics and Business Society(FEBS) @ IIT BBS | Business Consulting | Data Science",
                     linkedin: "https://www.linkedin.com/in/aryush-tripathi-780a28262/",
                   },
                   {
                     "name": "Aman gupta",
                     "role": " Relation and Outreach Head",
-                    "image": "/assets/images/Picture  (File responses)/IMG_5397 - AMAN GUPTA.JPG",
+                    "image": "/assets/images/Picture  (File responses)/IMG_5397 - AMAN GUPTA.jpeg",
                     "bio": " Relation and Outreach Head | Year: 2nd year | IIT Bhubaneswar",
                     "linkedin": "https://www.linkedin.com/in/aman-gupta-1a5622215?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 },
@@ -33,14 +33,14 @@ const Team = () => {
                 {
                     "name": "Aditya kumar Giri",
                     "role": "Team Coordinator",
-                    "image": "/assets/images/Picture  (File responses)/IMG20240127183055 - ADITYA KUMAR GIRI.jpg",
+                    "image": "/assets/images/Picture  (File responses)/IMG20240127183055 - ADITYA KUMAR GIRI.jpeg",
                     "bio": "Team Coordinator  | Year: 2nd year | IIT Bhubaneswar",
                     "linkedin": "https://www.linkedin.com/in/aditya-giri-79884a291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 },
                 {
                     "name": "Divyanshu Dubey",
                     "role": "Data Science Head",
-                    "image": "/assets/images/Picture  (File responses)/IMG-20231011-WA0007 - Divyanshu Dubey.jpg",
+                    "image": "/assets/images/Picture  (File responses)/IMG-20231011-WA0007 - Divyanshu Dubey.jpeg",
                     "bio": "Data Science Head  | Year: 2nd Year | IIT Bhubaneswar",
                     "linkedin": "https://www.linkedin.com/in/divyanshu-dubey-121261290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 },
@@ -54,14 +54,14 @@ const Team = () => {
                 {
                     "name": "Sumit Chaudhary",
                     "role": "Technical Head",
-                    "image": "/assets/images/Picture  (File responses)/IMG_20240401_105033 - Sumit Chaudhary.jpg",
+                    "image": "/assets/images/Picture  (File responses)/IMG_20240401_105033 - Sumit Chaudhary.jpeg",
                     "bio": "Technical Head  | Year: Second  | IIT Bhubaneswar",
                     "linkedin": "https://www.linkedin.com/in/sumit-chaudhary-34b0a7296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 },
                 {
                     "name": "Aum vyas",
                     "role": "Team Coordinator",
-                    "image": "/assets/images/Picture  (File responses)/IMG-20240718-WA0002 - AUM VYAS.jpg",
+                    "image": "/assets/images/Picture  (File responses)/IMG-20240718-WA0002 - AUM VYAS.jpeg",
                     "bio": "Team Coordinator  | Year: 2nd | IIT Bhubaneswar",
                     "linkedin": "https://www.linkedin.com/in/aum-vyas-90a94128a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 },
@@ -82,7 +82,7 @@ const Team = () => {
               {
                 "name": "kushagra tiwari",
                 "role": "Finance head",
-                "image": "/assets/images/Picture  (File responses)/WhatsApp Image 2024-07-16 at 23.19.44_163fca05 - Kushagra Tiwari.jpg",
+                "image": "/assets/images/Picture  (File responses)/WhatsApp Image 2024-07-16 at 23.19.44_163fca05 - Kushagra Tiwari.jpeg",
                 "bio": "Finance head | Year: Dual 2nd year | IIT Bhubaneswar",
                 "linkedin": "https://www.linkedin.com/in/kushagra-tiwari-28a989291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             },
@@ -91,7 +91,7 @@ const Team = () => {
                 {
                     name: "Kumar Saurabh",
                     role: "Society Advisor",
-                    image: "assets/images/Kumar Saurabh Bhaiya.png",
+                    image: "assets/images/Kumar Saurabh Bhaiya.jpeg",
                     bio: "CSE'26 @IIT Bhubaneswar | Contingent Leader @Inter IIT Tech Meet 13.0 | Internship Coordinator @Career Development Cell | Ex-Secretary, FEBS",
                     linkedin: "https://www.linkedin.com/in/india-kumar-saurabh/"
                 }
@@ -100,35 +100,35 @@ const Team = () => {
                 {
                   "name": "Anubhav Mishra",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/Screenshot_20240611-144840 - ANUBHAV MISHRA.png",
+                  "image": "/assets/images/Picture  (File responses)/Screenshot_20240611-144840 - ANUBHAV MISHRA.jpeg",
                   "bio": "Member  | Year: 2023 | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/anubhav-mishra-52724a20b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               },
               {
                   "name": "Debtanu Das",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/IMG-20240530-WA0005 - DEBTANU DAS.jpg",
+                  "image": "/assets/images/Picture  (File responses)/IMG-20240530-WA0005 - DEBTANU DAS.jpeg",
                   "bio": "Member  | Year: 2nd  | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/debtanu-das-585048296/"
               },
               {
                   "name": "Sai Tejaswini Karengla",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/IMG_20240714_124419 - Tejaswini Karengla.jpg",
+                  "image": "/assets/images/Picture  (File responses)/IMG_20240714_124419 - Tejaswini Karengla.jpeg",
                   "bio": "Member  | Year: 2023 | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/karengla-s-sai-tejaswini-178ba0298\n\nKARENGLA S SAI TEJASWINI"
               },
               {
                   "name": "Ansh Saini",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/IMG-20231212-WA0015 - Ansh Saini.jpg",
+                  "image": "/assets/images/Picture  (File responses)/IMG-20231212-WA0015 - Ansh Saini.jpeg",
                   "bio": "Member  | Year: 2023 | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/ansh-saini-50b204280"
               },
               {
                   "name": "Divyal Patil",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/1691039689917 - DIVYAL DAYANAND PATIL.jpg",
+                  "image": "/assets/images/Picture  (File responses)/1691039689917 - DIVYAL DAYANAND PATIL.jpeg",
                   "bio": "Member  | Year: 2nd | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/divyal-patil-4803282a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               },
@@ -143,42 +143,42 @@ const Team = () => {
               {
                   "name": "Het Sarsava",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/New_DP_pic - SARSAVA HET PRAVINBHAI.jpg",
+                  "image": "/assets/images/Picture  (File responses)/New_DP_pic - SARSAVA HET PRAVINBHAI.jpeg",
                   "bio": "Member | Year: 2022 | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/het-sarsava/"
               },
               {
                   "name": "Poonam Kiran Patil",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/IMG_20230930_131008 - Poonam Patil.jpg",
+                  "image": "/assets/images/Picture  (File responses)/IMG_20230930_131008 - Poonam Patil.jpeg",
                   "bio": "Member | Year: Second  | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/poonam-patil-a72875242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               },
               {
                   "name": "Arihant Garg",
                   "role": "Quant Club Member",
-                  "image": "/assets/images/Picture  (File responses)/Arihant_Photo - arihant garg.jpg",
+                  "image": "/assets/images/Picture  (File responses)/Arihant_Photo - arihant garg.jpeg",
                   "bio": "Quant Club Member | Year: 4th | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/arihant-garg-22a535247/"
               },
               {
                   "name": "Ashish Kumar Singh",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/SAVE_20231228_202222 - ASHISH KUMAR SINGH.jpg",
+                  "image": "/assets/images/Picture  (File responses)/SAVE_20231228_202222 - ASHISH KUMAR SINGH.jpeg",
                   "bio": "Member | Year: Third Year | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/ashish-kumar-singh-a8a954262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               },
               {
                   "name": "Sohan Bhattacharjya",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/PSX_20240603_164133 - Sohan Bhattacharjya.jpg",
+                  "image": "/assets/images/Picture  (File responses)/PSX_20240603_164133 - Sohan Bhattacharjya.jpeg",
                   "bio": "Member  | Year: 2nd | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/sohan-bhattacharjya?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               },
               {
                   "name": "Mohammad Ateeq Ahmad",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/IMG_20240717_210900 - Ateeq Ahmad.jpg",
+                  "image": "/assets/images/Picture  (File responses)/IMG_20240717_210900 - Ateeq Ahmad.jpeg",
                   "bio": "Member | Year: Second  | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/ateeq-ahmad-8b4012285"
               },
@@ -192,49 +192,49 @@ const Team = () => {
               {
                   "name": "Archit Sharma",
                   "role": "Events head",
-                  "image": "/assets/images/Picture  (File responses)/farewell photo - ARCHIT SHARMA.jpg",
+                  "image": "/assets/images/Picture  (File responses)/farewell photo - ARCHIT SHARMA.jpeg",
                   "bio": "Events head | Year: 2nd | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/archit-sharma-16ba5127b/"
               },
               {
                   "name": "Arya Bhardwaj",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/IMG_20240530_012610_310 - arya Bhardwaj.jpg",
+                  "image": "/assets/images/Picture  (File responses)/IMG_20240530_012610_310 - arya Bhardwaj.jpeg",
                   "bio": "Member | Year: 2023-2027 | IIT Bhubaneswar",
                   "linkedin": "Arya Bhardwaj"
               },
               {
                   "name": "Alfi L R",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/Image123 - ALFI L R.jpg",
+                  "image": "/assets/images/Picture  (File responses)/Image123 - ALFI L R.jpeg",
                   "bio": "Member | Year: 2nd | IIT Bhubaneswar",
                   "linkedin": "alfi-l-r-77b96b319"
               },
               {
                   "name": "Matru Prasad Mohanty",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/my photo - MATRU PRASAD MOHANTY.jpg",
+                  "image": "/assets/images/Picture  (File responses)/my photo - MATRU PRASAD MOHANTY.jpeg",
                   "bio": "Member | Year: 2024 | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/matru-prasad-mohanty-758a82293?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba6vN9F3HQSKY3RMAOuiXSA%3D%3D"
               },
               {
                   "name": "PRINCE KUMAR",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/Screenshot_20240718_030816_Gallery - PRINCE KR..jpg",
+                  "image": "/assets/images/Picture  (File responses)/Screenshot_20240718_030816_Gallery - PRINCE KR..jpeg",
                   "bio": "Member | Year: Second | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/prince-kumar-163704293"
               },
               {
                   "name": "Harsh Pratap Singh",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/20240628_201828 - HARSH PRATAP SINGH.jpg",
+                  "image": "/assets/images/Picture  (File responses)/20240628_201828 - HARSH PRATAP SINGH.jpeg",
                   "bio": "Member | Year: Second | IIT Bhubaneswar",
                   "linkedin": "Harsh Pratap Singh"
               },
               {
                   "name": "Hirendra Basantani",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/Hirendra_PIC - Hirendra Basantani.jpg",
+                  "image": "/assets/images/Picture  (File responses)/Hirendra_PIC - Hirendra Basantani.jpeg",
                   "bio": "Member | Year: 2nd | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/hirendra-basantani-45a0a52a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               },
@@ -255,63 +255,63 @@ const Team = () => {
               {
                   "name": "Dhruvi Ladvaiya",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/20240128_010348 - LADVAIYA DHRUVIBEN RAJESHBHAI.jpg",
+                  "image": "/assets/images/Picture  (File responses)/20240128_010348 - LADVAIYA DHRUVIBEN RAJESHBHAI.jpeg",
                   "bio": "Member | Year: 2nd | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/dhruvi-ladvaiya-064009296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               },
               {
                   "name": "Gitanjali Suar",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/Screenshot_2024_0413_225324 - GITANJALI SUAR.jpg",
+                  "image": "/assets/images/Picture  (File responses)/Screenshot_2024_0413_225324 - GITANJALI SUAR.jpeg",
                   "bio": "Member | Year: 2nd | IIT Bhubaneswar",
                   "linkedin": "Gitanjali"
               },
               {
                   "name": "Mohit Shukla",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/IMG_2628 - MOHIT SHUKLA.png",
+                  "image": "/assets/images/Picture  (File responses)/IMG_2628 - MOHIT SHUKLA.jpeg",
                   "bio": "Member | Year: 2nd | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/mohit-shukla-74b055296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
               },
               {
                   "name": "Ashis Vikram Prusty",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/IMG_20240718_224307 - ASHIS VIKRAM PRUSTY.jpg",
+                  "image": "/assets/images/Picture  (File responses)/IMG_20240718_224307 - ASHIS VIKRAM PRUSTY.jpeg",
                   "bio": "Member | Year: 2nd | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/ashis-vikram-prusty-00958a280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               },
               {
                   "name": "Surya Dipto Basu",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/IMG-20240718-WA0075 - SURYA DIPTO BASU.jpg",
+                  "image": "/assets/images/Picture  (File responses)/IMG-20240718-WA0075 - SURYA DIPTO BASU.jpeg",
                   "bio": "Member | Year: Second | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/surya-dipto-basu-iit-bbs?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               },
               {
                   "name": "Gagan Gupta",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/IMG-20230802-WA0018 - gagan gupta.jpg",
+                  "image": "/assets/images/Picture  (File responses)/IMG-20230802-WA0018 - gagan gupta.jpeg",
                   "bio": "Member  | Year: 2nd | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/gagan-gupta-949a252a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               },
               {
                   "name": "Spandan Satpathy",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/IMG-20231112-WA0024 - Spandan Satpathy.jpg",
+                  "image": "/assets/images/Picture  (File responses)/IMG-20231112-WA0024 - Spandan Satpathy.jpeg",
                   "bio": "Member | Year: 2 | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/spandan-satpathy-785620250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               },
               {
                   "name": "Aditya Raj",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/IMG_20240211_102940_999 - ADITYA RAJ.jpg",
+                  "image": "/assets/images/Picture  (File responses)/IMG_20240211_102940_999 - ADITYA RAJ.jpeg",
                   "bio": "Member | Year: 2nd | IIT Bhubaneswar",
                   "linkedin": "https://www.linkedin.com/in/aditya-raj-b13b491b7"
               },
               {
                   "name": "MEYSAKTHIVELAN T",
                   "role": "Member",
-                  "image": "/assets/images/Picture  (File responses)/105948-1PP - Meysakthivelan Thanga Prakash.JPG",
+                  "image": "/assets/images/Picture  (File responses)/105948-1PP - Meysakthivelan Thanga Prakash.jpeg",
                   "bio": "Member | Year: 3rd | IIT Bhubaneswar",
                   "linkedin": "meysakthivelan"
               }
