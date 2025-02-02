@@ -5,6 +5,7 @@ import Navbar from './components/Navbar.js';
 import Footer from './components/Footer.js';
 import Home from './pages/Home.js';
 import Team from './pages/Team.jsx';
+// import Events from './pages/Resources.js';
 import Resources from './pages/Resources.jsx';
 function App() {
     return (React.createElement(Router, null,

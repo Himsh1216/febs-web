@@ -8,4 +8,8 @@ export default defineConfig({
             "@": path.resolve(__dirname, "./src"),
         },
     },
+    build: {
+        outDir: 'dist',
+        sourcemap: true, // Enable source maps for easier debugging
+    },
 });

@@ -12,14 +12,14 @@ const Team = () => {
                   {
                     name: "Aryush Tripathi",
                     role: "Secretary",
-                    image: "assets/images/Aryush Bhaiya.png",
+                    image: "/assets/images/Aryush Bhaiya.png",
                     bio: "Secretary of Finance Economics and Business Society(FEBS) @ IIT BBS | Business Consulting | Data Science",
                     linkedin: "https://www.linkedin.com/in/aryush-tripathi-780a28262/",
                   },
                   {
                     "name": "Aman gupta",
                     "role": "Public Relation and Outreach Head",
-                    "image": "public/assets/images/Picture  (File responses)/IMG_5397 - AMAN GUPTA.JPG",
+                    "image": "/assets/images/Picture  (File responses)/IMG_5397 - AMAN GUPTA.JPG",
                     "bio": "Public Relation and Outreach Head | Year: 2nd year | IIT Bhubaneswar",
                     "linkedin": "https://www.linkedin.com/in/aman-gupta-1a5622215?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 },
