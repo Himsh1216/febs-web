@@ -285,14 +285,14 @@ const Team: React.FC = () => {
           {
               "name": "Dhruvi Ladvaiya",
               "role": "Member",
-              "image": "/Users/himanshusharma/Documents/febs-web/public/assets/images/Picture  (File responses)/20240128_010348 - LADVAIYA DHRUVIBEN RAJESHBHAI.jpg",
+              "image": "/assets/images/Picture  (File responses)/20240128_010348 - LADVAIYA DHRUVIBEN RAJESHBHAI.jpg",
               "bio": "Member | Year: 2nd | IIT Bhubaneswar",
               "linkedin": "https://www.linkedin.com/in/dhruvi-ladvaiya-064009296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           },
           {
               "name": "Gitanjali Suar",
               "role": "Member",
-              "image": "https://drive.google.com/open?id=12VP7oRR6nVazbrqIe9sAFS9CV8RijF7K",
+              "image": "",
               "bio": "Member | Year: 2nd | IIT Bhubaneswar",
               "linkedin": "Gitanjali"
           },
@@ -334,14 +334,14 @@ const Team: React.FC = () => {
           {
               "name": "Aditya Raj",
               "role": "Member",
-              "image": "https://drive.google.com/open?id=112pLOitZNzzYAV6fASw83xny9RH5ic_s",
+              "image": "",
               "bio": "Member | Year: 2nd | IIT Bhubaneswar",
               "linkedin": "https://www.linkedin.com/in/aditya-raj-b13b491b7"
           },
           {
               "name": "MEYSAKTHIVELAN T",
               "role": "Member",
-              "image": "public/assets/images/Picture  (File responses)/105948-1PP - Meysakthivelan Thanga Prakash.JPG",
+              "image": "/assets/images/Picture  (File responses)/105948-1PP - Meysakthivelan Thanga Prakash.JPG",
               "bio": "Member | Year: 3rd | IIT Bhubaneswar",
               "linkedin": "meysakthivelan"
           }
