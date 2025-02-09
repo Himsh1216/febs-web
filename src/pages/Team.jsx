@@ -335,17 +335,17 @@ const Team = () => {
     );
 
     const MemberCard = ({ member, type }) => (
-        <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-0 bg-gradient-to-br from-emerald-500 via-teal-500 to-blue-500 max-w-xs md:max-w-sm mx-auto flex flex-col rounded-xl">
+        <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-0 bg-gradient-to-br from-emerald-500 via-teal-500 to-blue-500 max-w-sm md:max-w-md mx-auto flex flex-col rounded-xl">
             <CardHeader className="p-0 relative">
                 <div className="overflow-hidden">
                     <img 
                         src={member.image} 
                         alt={member.name} 
-                        className="w-full object-cover transition-transform duration-300 group-hover:scale-105 h-48 md:h-72"
+                        className="w-full object-cover transition-transform duration-300 group-hover:scale-105 h-56 md:h-80"
                     />
                 </div>
             </CardHeader>
-            <CardContent className="p-4 md:p-6 text-white flex flex-col justify-between h-48 md:h-64">
+            <CardContent className="p-4 md:p-6 text-white flex flex-col justify-between h-56 md:h-72">
                 <div>
                     <h3 className="text-lg md:text-xl font-bold mb-1 md:mb-2">{member.name}</h3>
                     <p className="text-sm md:text-base text-emerald-200 font-semibold mb-2 md:mb-3">{member.role}</p>
@@ -363,8 +363,8 @@ const Team = () => {
     const GridLayout = ({ items, type }) => {
         if (items.length === 1) {
             return (
-                <div className="grid grid-cols-3 gap-8">
-                    <div className="col-start-2">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div className="md:col-start-2">
                         <MemberCard member={items[0]} type={type} />
                     </div>
                 </div>
@@ -373,19 +373,15 @@ const Team = () => {
 
         if (items.length === 2) {
             return (
-                <div className="grid grid-cols-3 gap-8">
-                    <div className="col-start-1 md:col-start-2">
-                        <MemberCard member={items[0]} type={type} />
-                    </div>
-                    <div>
-                        <MemberCard member={items[1]} type={type} />
-                    </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <MemberCard member={items[0]} type={type} />
+                    <MemberCard member={items[1]} type={type} />
                 </div>
             );
         }
 
         return (
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {items.map((member) => (
                     <MemberCard key={member.name} member={member} type={type} />
                 ))}

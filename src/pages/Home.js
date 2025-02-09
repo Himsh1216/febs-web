@@ -48,7 +48,7 @@ const Home = () => {
                     React.createElement("h1", { className: "text-5xl md:text-7xl font-bold mb-6 animate-fade-in" },
                         "Welcome to",
                         ' ',
-                        React.createElement("span", { className: "text-transparent bg-clip-text bg-gradient-to-r from-[#28d4a5] to-[#1f78d1]" }, "FEBS")),
+                        React.createElement("span", { className: "text-transparent bg-clip-text bg-gradient-to-r from-[#1f78d1] to-[#28d4a5]" }, "FEBS")),
                     React.createElement("p", { className: "text-xl md:text-2xl mb-8 text-gray-200" }, "Fostering Excellence in Business and Science through Innovation and Leadership"),
                     React.createElement("div", { className: "flex gap-4" },
                         React.createElement(Button, { size: "lg", className: "bg-[#28d4a5] text-white hover:bg-[#1f78d1]" }, "Get Started"),
