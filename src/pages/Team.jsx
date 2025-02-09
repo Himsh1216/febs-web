@@ -322,7 +322,7 @@ const Team = () => {
     // Updated color palette to match the FEBS poster
     
 
-    const SocialLink = ({ href, icon: Icon, label }) => (
+   const SocialLink = ({ href, icon: Icon, label }) => (
         <a 
             href={href} 
             target="_blank" 
@@ -335,17 +335,17 @@ const Team = () => {
     );
 
     const MemberCard = ({ member, type }) => (
-        <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-0 bg-gradient-to-br from-emerald-500 via-teal-500 to-blue-500 max-w-sm md:max-w-md mx-auto flex flex-col rounded-xl">
+        <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-0 bg-gradient-to-br from-emerald-500 via-teal-500 to-blue-500 max-w-sm mx-auto flex flex-col rounded-xl">
             <CardHeader className="p-0 relative">
                 <div className="overflow-hidden">
                     <img 
-                        src={member.image} 
+                        src={member.image}
                         alt={member.name} 
-                        className="w-full object-cover transition-transform duration-300 group-hover:scale-105 h-56 md:h-80"
+                        className="w-full object-cover transition-transform duration-300 group-hover:scale-105 h-40 md:h-80"
                     />
                 </div>
             </CardHeader>
-            <CardContent className="p-4 md:p-6 text-white flex flex-col justify-between h-56 md:h-72">
+            <CardContent className="p-4 md:p-6 text-white flex flex-col justify-between h-48 md:h-72">
                 <div>
                     <h3 className="text-lg md:text-xl font-bold mb-1 md:mb-2">{member.name}</h3>
                     <p className="text-sm md:text-base text-emerald-200 font-semibold mb-2 md:mb-3">{member.role}</p>
@@ -363,7 +363,7 @@ const Team = () => {
     const GridLayout = ({ items, type }) => {
         if (items.length === 1) {
             return (
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
                     <div className="md:col-start-2">
                         <MemberCard member={items[0]} type={type} />
                     </div>
@@ -373,15 +373,19 @@ const Team = () => {
 
         if (items.length === 2) {
             return (
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                     <MemberCard member={items[0]} type={type} />
                     <MemberCard member={items[1]} type={type} />
                 </div>
             );
         }
 
+        const gridClass = type === 'society members'
+            ? "grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8"
+            : "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8";
+
         return (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className={gridClass}>
                 {items.map((member) => (
                     <MemberCard key={member.name} member={member} type={type} />
                 ))}
@@ -393,10 +397,10 @@ const Team = () => {
         <div className="min-h-screen bg-gradient-to-br from-emerald-100 via-blue-50 to-teal-100">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,rgba(46,204,113,0.15),transparent_70%),radial-gradient(circle_at_80%_70%,rgba(52,152,219,0.15),transparent_70%),radial-gradient(circle_at_50%_50%,rgba(16,185,129,0.1),transparent_70%)] pointer-events-none" />
             
-            <header className="py-24 text-center relative">
+            <header className="py-12 md:py-24 text-center relative">
                 <div className="container mx-auto px-4">
-                    <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-emerald-600 via-teal-600 to-blue-600 text-transparent bg-clip-text">Meet Our Team</h1>
-                    <p className="text-xl max-w-2xl mx-auto leading-relaxed text-gray-700">
+                    <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-emerald-600 via-teal-600 to-blue-600 text-transparent bg-clip-text">Meet Our Team</h1>
+                    <p className="text-lg md:text-xl max-w-2xl mx-auto leading-relaxed text-gray-700">
                         A diverse group of professionals dedicated to fostering excellence in business and science
                     </p>
                 </div>
