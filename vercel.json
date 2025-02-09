@@ -3,5 +3,9 @@
       "env": {
         "ENABLE_GIT_LFS": "true"
       }
-    }
+    },
+    "rewrites": [
+      { 
+          "source": "/(.*)", "destination": "/index.html" }
+    ]
   }
