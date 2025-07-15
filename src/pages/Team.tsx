@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Card, CardHeader, CardContent } from '@/components/ui/card.js';
 import { Button } from '@/components/ui/button.js';
-import { LinkedinIcon, TwitterIcon, MailIcon, GithubIcon, ExternalLinkIcon } from 'lucide-react';
+import { LinkedinIcon, TwitterIcon, MailIcon, ExternalLinkIcon } from 'lucide-react';
 import { LucideProps } from 'lucide-react';
 
 type TeamMember = {
@@ -349,14 +349,6 @@ const Team: React.FC = () => {
     };
 
     
-    const colorPalette = {
-        primary: '#2ecc71',
-        secondary: '#3498db',
-        tertiary: '#1abc9c',
-        text: '#ffffff',
-        background: '#000000',
-        buttonHover: '#27ae60'
-    };
 
     
     

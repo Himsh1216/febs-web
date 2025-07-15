@@ -2,7 +2,9 @@
 import React from 'react';
 import '../assets/styles/App.css';
 
-type EventsSectionProps = {};
+// This component does not accept props. Using `Record<string, never>` keeps
+// the type strict without triggering the no-empty-object-type rule.
+type EventsSectionProps = Record<string, never>;
 
 const EventsSection: React.FC<EventsSectionProps> = () => {
   return (
