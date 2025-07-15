@@ -2,7 +2,9 @@
 import React from 'react';
 import '../assets/styles/App.css';
 
-type AboutSectionProps = {};
+// The component has no props; using `Record<string, never>` avoids the
+// no-empty-object-type lint error from typescript-eslint.
+type AboutSectionProps = Record<string, never>;
 
 const AboutSection: React.FC<AboutSectionProps> = () => {
   return (
